@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(7, 14, 112);
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pass-gen content */
+.pass-gen {
+  background: rgb(71, 70, 70);
+  padding: 1.5rem;
+  color: #fff;
+}
+
+/* pass-gen title */
+.pass-gen h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  font-size: 1.2rem;
+  padding: 3px;
+  border: 1px solid rgb(15, 36, 131);
+  background: #333;
+  color: rgb(148, 144, 144);
+}
+/* copy btn */
+.form .copy-btn {
+  border: 1px solid #333;
+  font-size: 1.2rem;
+  padding: 3px 7px;
+  background: rgb(119, 118, 118);
+  cursor: pointer;
+}
+.form .copy-btn:hover {
+  background: rgb(175, 175, 175);
+}
+
+.copy-btn img {
+  width: 20px;
+}
+
+.form,
+.pass-length,
+.uppercase,
+.lowercase,
+.number,
+.symbol {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin: .7rem 0;
+}
+
+.pass-length input {
+  font-size: 1.3rem;
+  background: #333;
+  color: rgb(207, 9, 52);
+  border: none;
+  padding: 5px 8px;
+}
+
+.refresh-btn:hover {
+  background: rgb(95, 95, 95);
+}
+
+.uppercase input ,
+.lowercase input ,
+.number input ,
+.symbol input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* generate-btn */
+.generate-btn {
+  width: 100%;
+  font-size: 1.3rem;
+  border: 1px solid #333;
+  padding: 4px 8px;
+  background: rgb(6, 52, 150);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 3px;
+}
+
+.generate-btn:hover {
+  background: rgb(7, 61, 177);
+}
